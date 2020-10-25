@@ -1,15 +1,18 @@
-/* Font */
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
-
-/* Design */
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
 }
+/*------Variables CSS-------*/
+:root {
+	--headerHeight: 3rem;
+	--fontSemi: 600;
+	--fontBold: 800;
+	--mainBg: #6f9e9c;
+}
 
 html {
-	background-color: #fff;
+	background-color: var(--mainBg);
 }
 
 body {
