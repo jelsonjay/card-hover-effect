@@ -15,10 +15,6 @@
 	--mainWhite: #fff;
 }
 
-html {
-	background-color: var(--mainBg);
-}
-
 body {
 	color: #272727;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,6 +22,7 @@ body {
 	font-weight: 400;
 	letter-spacing: 0;
 	padding: 1rem;
+	background-color: var(--mainBg);
 }
 
 .main {
@@ -44,20 +41,6 @@ img {
 	height: auto;
 	max-width: 100%;
 	vertical-align: middle;
-}
-
-.btn {
-	color: var(--mainPrimary);
-	padding: 0.8rem;
-	font-size: 14px;
-	text-transform: uppercase;
-	border-radius: 4px;
-	font-weight: 400;
-	display: block;
-	width: 50%;
-	cursor: pointer;
-	border: 1px solid rgba(255, 255, 255, 0.2);
-	background-color: skyblue;
 }
 
 .cards {
@@ -86,7 +69,6 @@ img {
 }
 
 .card {
-	background-color: white;
 	border-radius: 0.25rem;
 	display: flex;
 	flex-direction: column;
@@ -103,7 +85,7 @@ img {
 
 .card_content {
 	padding: 1rem;
-	background-color: #ecf9ff;
+	background: var(--mainPrimary);
 }
 
 .card_title {
