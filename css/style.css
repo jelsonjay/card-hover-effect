@@ -9,6 +9,8 @@
 	--fontSemi: 600;
 	--fontBold: 800;
 	--mainBg: #6f9e9c;
+	--mainFont: #112215;
+	--mainGreen: #525252;
 }
 
 html {
@@ -87,10 +89,17 @@ img {
 .card {
 	background-color: white;
 	border-radius: 0.25rem;
-	box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+	text-align: center;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.card:hover {
+	transform: scale(1.2);
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .card_content {
@@ -108,7 +117,7 @@ img {
 }
 
 .card_text {
-	color: #000;
+	color: var(--mainFont);
 	font-size: 0.875rem;
 	line-height: 1.5;
 	margin-bottom: 1.25rem;
