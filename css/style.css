@@ -58,10 +58,6 @@ img {
 	background-color: skyblue;
 }
 
-.btn:hover {
-	background-color: grey;
-}
-
 .cards {
 	display: flex;
 	flex-wrap: wrap;
