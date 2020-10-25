@@ -12,6 +12,7 @@
 	--mainFont: #112215;
 	--mainGreen: #525252;
 	--mainPrimary: hsl(186, 100%, 94%);
+	--mainWhite: #fff;
 }
 
 html {
@@ -36,6 +37,7 @@ h1 {
 	font-size: 24px;
 	font-weight: 400;
 	text-align: center;
+	color: var(--mainWhite);
 }
 
 img {
