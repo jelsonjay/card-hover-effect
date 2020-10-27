@@ -1,5 +1,5 @@
 # card-hover-effect
- simple components cards with hover effect using html5 & css
+ simple component cards with hover effect using html5 & css3
  
  [Access My Project](https://jelsonjay.github.io/card-hover-effect/)
  
